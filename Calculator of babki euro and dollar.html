@@ -1,0 +1,20 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+
+var dol = 94.71; //курс доллара
+var eu = 102.26; //курс евро
+
+var Rub = prompt ('Enter the amount rub'); //вводит число рублей
+
+var dR = Rub / dol; //вычисляем количество долларов
+var eR = Rub / eu; //вычисляем количество евро
+
+
+var dR0 = parseFloat(dR).toFixed(1); //сделает округление до 1 цифры до запятой и запишет в rR0
+var eR0 = parseFloat(eR).toFixed(1); //сделает округление до 1 цифры до запятой и запишет в eR0
+
+// alert("Долларов у тебя: " + dR + '/n' + "Евро у тебя: " + eR);
+
+alert("Долларов у тебя: " + dR0 + "$" + '\n' + "Евро у тебя: " + eR0 + "€");
+
+</script>
